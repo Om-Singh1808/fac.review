@@ -1,0 +1,175 @@
+.review-card {
+    background: var(--color-surface);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border);
+    padding: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: var(--spacing-md);
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: var(--spacing-md);
+}
+
+.review-course {
+    display: flex;
+    flex-direction: column;
+}
+
+.course-code {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--color-text-main);
+}
+
+.review-date {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+}
+
+.review-badges {
+    display: flex;
+    gap: var(--spacing-lg);
+}
+
+.rating-pair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating-pair .label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: var(--color-text-secondary);
+}
+
+.difficulty-score {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--color-text-main);
+}
+
+.review-body {
+    margin-bottom: var(--spacing-md);
+}
+
+.review-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: var(--spacing-md);
+    white-space: pre-wrap;
+}
+
+.review-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.tag {
+    background-color: var(--color-background);
+    border: 1px solid var(--color-border);
+    padding: 4px 10px;
+    border-radius: var(--radius-full);
+    font-size: 0.8rem;
+    color: var(--color-text-main);
+    font-weight: 500;
+}
+
+.review-meta-grid {
+    display: flex;
+    gap: var(--spacing-lg);
+    font-size: 0.9rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--color-text-secondary);
+}
+
+.meta-item span {
+    font-weight: 600;
+    color: var(--color-text-main);
+}
+
+.parameter-breakdown {
+    background-color: #f8f9fa;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-sm);
+    margin-top: var(--spacing-md);
+}
+
+.param-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    font-size: 0.85rem;
+}
+
+.param-name {
+    width: 120px;
+    font-weight: 500;
+}
+
+.param-bar-bg {
+    flex: 1;
+    height: 6px;
+    background-color: #e9ecef;
+    border-radius: 3px;
+    margin: 0 var(--spacing-md);
+    overflow: hidden;
+}
+
+.param-bar-fill {
+    height: 100%;
+    background-color: var(--color-primary);
+    border-radius: 3px;
+}
+
+.param-val {
+    width: 24px;
+    text-align: right;
+    font-weight: 600;
+}
+
+.review-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: var(--spacing-sm);
+}
+
+.review-actions {
+    display: flex;
+    gap: var(--spacing-md);
+}
+
+.action-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: none;
+    border: none;
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+}
+
+.action-btn:hover {
+    background-color: #f0f0f0;
+    color: var(--color-text-main);
+}
+
+.report-btn {
+    background: none;
+    border: none;
+    color: var(--color-text-secondary);
+    font-size: 0.85rem;
+    text-decoration: underline;
+}

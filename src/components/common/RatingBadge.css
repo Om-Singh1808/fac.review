@@ -1,0 +1,44 @@
+.rating-badge {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 800;
+    border-radius: var(--radius-md);
+    line-height: 1;
+}
+
+.rating-badge-lg {
+    width: 100px;
+    height: 100px;
+    font-size: 2.5rem;
+}
+
+.rating-badge-lg .rating-max {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.rating-badge-md {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+}
+
+.rating-badge-md .rating-max {
+    font-size: 0.7rem;
+    opacity: 0.9;
+}
+
+.rating-badge-sm {
+    width: 40px;
+    height: 40px;
+    font-size: 1.1rem;
+}
+
+.rating-badge-sm .rating-max {
+    display: none;
+}

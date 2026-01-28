@@ -1,0 +1,42 @@
+.section-featured {
+    padding: 80px var(--spacing-md);
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.section-subtitle {
+    color: var(--color-text-secondary);
+    font-size: 1.1rem;
+    margin-bottom: var(--spacing-xl);
+}
+
+.professors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--spacing-xl);
+}
+
+.cta-section {
+    background-color: #fff;
+    padding: 80px var(--spacing-md);
+    border-top: 1px solid var(--color-border);
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.cta-section p {
+    color: var(--color-text-secondary);
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+}
